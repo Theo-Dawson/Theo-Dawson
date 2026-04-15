@@ -33,7 +33,7 @@
     <td align="center" width="220">
       <br>
       <sub><b>BACKGROUND</b></sub><br><br>
-      <b>Operations Research<br>& Optimization</b>
+      <b>Machine Learning<br>& Optimization</b>
       <br><br>
     </td>
     <td align="center" width="220">
