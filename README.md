@@ -99,15 +99,15 @@
 
 <br>
 
-<a href="https://github.com/theousername">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=theousername&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=3b82f6&text_color=94a3b8&ring_color=3b82f6" alt="GitHub Stats"/>
+<a href="https://github.com/Theo-Dawson">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Theo-Dawson&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=3b82f6&text_color=94a3b8&ring_color=3b82f6" alt="GitHub Stats"/>
   &nbsp;&nbsp;
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=theousername&theme=github-dark-blue&hide_border=true&background=0d1117&ring=3b82f6&fire=3b82f6&currStreakLabel=3b82f6" alt="GitHub Streak"/>
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Theo-Dawson&theme=github-dark-blue&hide_border=true&background=0d1117&ring=3b82f6&fire=3b82f6&currStreakLabel=3b82f6" alt="GitHub Streak"/>
 </a>
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=theousername&theme=github-compact&hide_border=true&bg_color=0d1117&color=3b82f6&line=3b82f6&point=e2e8f0&area=true&area_color=1e3a5f" width="95%" alt="Contribution Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Theo-Dawson&theme=github-compact&hide_border=true&bg_color=0d1117&color=3b82f6&line=3b82f6&point=e2e8f0&area=true&area_color=1e3a5f" width="95%" alt="Contribution Graph"/>
 
 </div>
 
