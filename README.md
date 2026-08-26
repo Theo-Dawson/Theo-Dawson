@@ -99,13 +99,7 @@
 
 <br>
 
-<a href="https://github.com/Theo-Dawson">
-  <img src="metrics/summary.svg" width="95%" alt="GitHub Metrics"/>
-</a>
-
-<br><br>
-
-<img src="metrics/calendar.svg" width="95%" alt="Contribution Graph"/>
+<img src="metrics/commits.svg" width="95%" alt="Contributions per day"/>
 
 </div>
 
