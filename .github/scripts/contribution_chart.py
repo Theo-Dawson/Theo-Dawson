@@ -3,6 +3,8 @@
 
 Date on x, count on y. Reads GitHub's contribution calendar, which is the
 only daily-resolution source that includes private activity.
+
+Usage: contribution_chart.py <login> <dest.svg> [days]
 """
 import json
 import os
@@ -25,15 +27,18 @@ query($login:String!, $from:DateTime!, $to:DateTime!) {
 
 W, H = 1000, 260
 ML, MR, MT, MB = 44, 16, 34, 30
+DEFAULT_DAYS = 60
+GAP = 2.0      # surface gap between adjacent bars
+RADIUS = 4.0   # rounded data-end, baseline stays square
 SURFACE, BAR, GRID = "#0d1117", "#3b82f6", "#1e293b"
 INK, MUTED = "#94a3b8", "#64748b"
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 
-def fetch(login, token):
+def fetch(login, token, days):
     to = datetime.now(timezone.utc)
-    frm = to - timedelta(days=364)
+    frm = to - timedelta(days=days - 1)
     req = urllib.request.Request(
         "https://api.github.com/graphql",
         data=json.dumps({"query": QUERY, "variables": {
@@ -69,26 +74,30 @@ def esc(s):
     return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
+def label_for(iso):
+    return f'{MONTHS[int(iso[5:7]) - 1]} {int(iso[8:10])}'
+
+
 def render(days, total):
     plot_w, plot_h = W - ML - MR, H - MT - MB
     n = len(days)
     peak = max((d["contributionCount"] for d in days), default=0)
     top = nice_ceiling(peak)
     slot = plot_w / n
-    bw = max(1.4, slot - 0.6)
+    bw = max(1.4, slot - GAP) if slot > 4 else max(1.4, slot - 0.6)
     base = MT + plot_h
 
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
         f'viewBox="0 0 {W} {H}" role="img" '
-        f'aria-label="Contributions per day over the last year. '
+        f'aria-label="Contributions per day over the last {n} days. '
         f'{total} total, peak {peak} in one day.">',
         f'<rect width="{W}" height="{H}" fill="{SURFACE}"/>',
         f'<text x="{ML}" y="20" fill="{INK}" font-family="system-ui,-apple-system,'
         f'Segoe UI,sans-serif" font-size="13" font-weight="600">Contributions per day</text>',
         f'<text x="{W - MR}" y="20" fill="{MUTED}" font-family="system-ui,-apple-system,'
         f'Segoe UI,sans-serif" font-size="12" text-anchor="end">'
-        f'{total:,} in the last year &#183; peak {peak}</text>',
+        f'{total:,} in the last {n} days &#183; peak {peak}</text>',
     ]
 
     # Recessive gridlines, labelled at the ends only.
@@ -100,32 +109,31 @@ def render(days, total):
                    f'font-family="system-ui,-apple-system,Segoe UI,sans-serif" '
                    f'font-size="11" text-anchor="end">{int(top * frac)}</text>')
 
-    # Bars.
+    # Bars. Rounded at the data end, square where they meet the baseline.
     for i, d in enumerate(days):
         c = d["contributionCount"]
         if not c:
             continue
-        h = max(1.5, c / top * plot_h)
-        x = ML + i * slot
-        out.append(f'<rect x="{x:.2f}" y="{base - h:.2f}" width="{bw:.2f}" '
-                   f'height="{h:.2f}" fill="{BAR}" rx="0.7"><title>'
-                   f'{esc(d["date"])}: {c}</title></rect>')
+        h = max(2.0, c / top * plot_h)
+        x = ML + i * slot + (slot - bw) / 2
+        r = min(RADIUS, bw / 2, h)
+        y = base - h
+        out.append(
+            f'<path d="M{x:.2f},{base:.2f} V{y + r:.2f} Q{x:.2f},{y:.2f} '
+            f'{x + r:.2f},{y:.2f} H{x + bw - r:.2f} Q{x + bw:.2f},{y:.2f} '
+            f'{x + bw:.2f},{y + r:.2f} V{base:.2f} Z" fill="{BAR}">'
+            f'<title>{esc(d["date"])}: {c}</title></path>')
 
-    # One label per month, at its first day. The window opens mid-month, so
-    # keep a minimum gap or that first stub collides with the next label.
-    seen, last_x = set(), None
-    for i, d in enumerate(days):
-        mo = d["date"][:7]
-        if mo in seen:
-            continue
-        seen.add(mo)
-        x = ML + i * slot
-        if last_x is not None and x - last_x < 30:
-            continue
-        last_x = x
+    # Dated ticks: roughly weekly, and always the most recent day.
+    step = max(1, round(n / 9))
+    marks = list(range(n - 1, -1, -step))[::-1]
+    for i in marks:
+        x = ML + i * slot + slot / 2
+        anchor = "end" if i == n - 1 else "middle"
         out.append(f'<text x="{x:.1f}" y="{base + 18:.0f}" fill="{MUTED}" '
                    f'font-family="system-ui,-apple-system,Segoe UI,sans-serif" '
-                   f'font-size="10">{MONTHS[int(d["date"][5:7]) - 1]}</text>')
+                   f'font-size="10" text-anchor="{anchor}">'
+                   f'{label_for(days[i]["date"])}</text>')
 
     out.append("</svg>")
     return "\n".join(out)
@@ -133,10 +141,11 @@ def render(days, total):
 
 def main():
     login, dest = sys.argv[1], sys.argv[2]
+    window = int(sys.argv[3]) if len(sys.argv) > 3 else DEFAULT_DAYS
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
         sys.exit("GITHUB_TOKEN is required")
-    days, total = fetch(login, token)
+    days, total = fetch(login, token, window)
     if not days:
         sys.exit("no contribution days returned")
     os.makedirs(os.path.dirname(dest) or ".", exist_ok=True)

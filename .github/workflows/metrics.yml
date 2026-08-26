@@ -25,7 +25,7 @@ jobs:
       - name: Render chart
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-        run: python3 .github/scripts/contribution_chart.py Theo-Dawson metrics/commits.svg
+        run: python3 .github/scripts/contribution_chart.py Theo-Dawson metrics/commits.svg 60
 
       - name: Commit if changed
         run: |
