@@ -100,7 +100,7 @@
 <br>
 
 <a href="https://github.com/Theo-Dawson">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Theo-Dawson&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=3b82f6&text_color=94a3b8&ring_color=3b82f6&cache_seconds=86400" alt="GitHub Stats"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Theo-Dawson&show_icons=true&count_private=true&rank_icon=github&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=3b82f6&text_color=94a3b8&ring_color=3b82f6&cache_seconds=86400" alt="GitHub Stats"/>
   &nbsp;&nbsp;
   <img height="180em" src="https://streak-stats.demolab.com/?user=Theo-Dawson&theme=github-dark-blue&hide_border=true&background=0d1117&ring=3b82f6&fire=3b82f6&currStreakLabel=3b82f6&currStreakNum=e2e8f0&sideNums=e2e8f0&sideLabels=94a3b8&dates=64748b" alt="GitHub Streak"/>
 </a>
