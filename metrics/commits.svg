@@ -1,158 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="Contributions per day over the last year. 1726 total, peak 87 in one day.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="Contributions per day over the last 60 days. 858 total, peak 87 in one day.">
 <rect width="1000" height="260" fill="#0d1117"/>
 <text x="44" y="20" fill="#94a3b8" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="600">Contributions per day</text>
-<text x="984" y="20" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="12" text-anchor="end">1,726 in the last year &#183; peak 87</text>
+<text x="984" y="20" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="12" text-anchor="end">858 in the last 60 days &#183; peak 87</text>
 <line x1="44" y1="230.0" x2="984" y2="230.0" stroke="#1e293b" stroke-width="1"/>
 <text x="36" y="234.0" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="11" text-anchor="end">0</text>
 <line x1="44" y1="132.0" x2="984" y2="132.0" stroke="#1e293b" stroke-width="1"/>
 <text x="36" y="136.0" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="11" text-anchor="end">50</text>
 <line x1="44" y1="34.0" x2="984" y2="34.0" stroke="#1e293b" stroke-width="1"/>
 <text x="36" y="38.0" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="11" text-anchor="end">100</text>
-<rect x="113.53" y="220.20" width="1.98" height="9.80" fill="#3b82f6" rx="0.7"><title>2025-09-23: 5</title></rect>
-<rect x="116.11" y="226.08" width="1.98" height="3.92" fill="#3b82f6" rx="0.7"><title>2025-09-24: 2</title></rect>
-<rect x="118.68" y="224.12" width="1.98" height="5.88" fill="#3b82f6" rx="0.7"><title>2025-09-25: 3</title></rect>
-<rect x="136.71" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2025-10-02: 1</title></rect>
-<rect x="149.59" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2025-10-07: 1</title></rect>
-<rect x="226.85" y="224.12" width="1.98" height="5.88" fill="#3b82f6" rx="0.7"><title>2025-11-06: 3</title></rect>
-<rect x="492.11" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2026-02-17: 1</title></rect>
-<rect x="525.59" y="226.08" width="1.98" height="3.92" fill="#3b82f6" rx="0.7"><title>2026-03-02: 2</title></rect>
-<rect x="528.16" y="224.12" width="1.98" height="5.88" fill="#3b82f6" rx="0.7"><title>2026-03-03: 3</title></rect>
-<rect x="551.34" y="226.08" width="1.98" height="3.92" fill="#3b82f6" rx="0.7"><title>2026-03-12: 2</title></rect>
-<rect x="553.92" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2026-03-13: 1</title></rect>
-<rect x="566.79" y="226.08" width="1.98" height="3.92" fill="#3b82f6" rx="0.7"><title>2026-03-18: 2</title></rect>
-<rect x="569.37" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2026-03-19: 1</title></rect>
-<rect x="571.95" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2026-03-20: 1</title></rect>
-<rect x="587.40" y="226.08" width="1.98" height="3.92" fill="#3b82f6" rx="0.7"><title>2026-03-26: 2</title></rect>
-<rect x="600.27" y="226.08" width="1.98" height="3.92" fill="#3b82f6" rx="0.7"><title>2026-03-31: 2</title></rect>
-<rect x="608.00" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2026-04-03: 1</title></rect>
-<rect x="615.73" y="210.40" width="1.98" height="19.60" fill="#3b82f6" rx="0.7"><title>2026-04-06: 10</title></rect>
-<rect x="618.30" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2026-04-07: 1</title></rect>
-<rect x="620.88" y="218.24" width="1.98" height="11.76" fill="#3b82f6" rx="0.7"><title>2026-04-08: 6</title></rect>
-<rect x="623.45" y="220.20" width="1.98" height="9.80" fill="#3b82f6" rx="0.7"><title>2026-04-09: 5</title></rect>
-<rect x="626.03" y="214.32" width="1.98" height="15.68" fill="#3b82f6" rx="0.7"><title>2026-04-10: 8</title></rect>
-<rect x="628.60" y="224.12" width="1.98" height="5.88" fill="#3b82f6" rx="0.7"><title>2026-04-11: 3</title></rect>
-<rect x="633.75" y="224.12" width="1.98" height="5.88" fill="#3b82f6" rx="0.7"><title>2026-04-13: 3</title></rect>
-<rect x="636.33" y="190.80" width="1.98" height="39.20" fill="#3b82f6" rx="0.7"><title>2026-04-14: 20</title></rect>
-<rect x="638.90" y="216.28" width="1.98" height="13.72" fill="#3b82f6" rx="0.7"><title>2026-04-15: 7</title></rect>
-<rect x="641.48" y="218.24" width="1.98" height="11.76" fill="#3b82f6" rx="0.7"><title>2026-04-16: 6</title></rect>
-<rect x="644.05" y="210.40" width="1.98" height="19.60" fill="#3b82f6" rx="0.7"><title>2026-04-17: 10</title></rect>
-<rect x="646.63" y="216.28" width="1.98" height="13.72" fill="#3b82f6" rx="0.7"><title>2026-04-18: 7</title></rect>
-<rect x="649.21" y="220.20" width="1.98" height="9.80" fill="#3b82f6" rx="0.7"><title>2026-04-19: 5</title></rect>
-<rect x="651.78" y="204.52" width="1.98" height="25.48" fill="#3b82f6" rx="0.7"><title>2026-04-20: 13</title></rect>
-<rect x="654.36" y="202.56" width="1.98" height="27.44" fill="#3b82f6" rx="0.7"><title>2026-04-21: 14</title></rect>
-<rect x="656.93" y="222.16" width="1.98" height="7.84" fill="#3b82f6" rx="0.7"><title>2026-04-22: 4</title></rect>
-<rect x="659.51" y="200.60" width="1.98" height="29.40" fill="#3b82f6" rx="0.7"><title>2026-04-23: 15</title></rect>
-<rect x="662.08" y="202.56" width="1.98" height="27.44" fill="#3b82f6" rx="0.7"><title>2026-04-24: 14</title></rect>
-<rect x="664.66" y="208.44" width="1.98" height="21.56" fill="#3b82f6" rx="0.7"><title>2026-04-25: 11</title></rect>
-<rect x="667.23" y="226.08" width="1.98" height="3.92" fill="#3b82f6" rx="0.7"><title>2026-04-26: 2</title></rect>
-<rect x="669.81" y="184.92" width="1.98" height="45.08" fill="#3b82f6" rx="0.7"><title>2026-04-27: 23</title></rect>
-<rect x="672.38" y="224.12" width="1.98" height="5.88" fill="#3b82f6" rx="0.7"><title>2026-04-28: 3</title></rect>
-<rect x="674.96" y="220.20" width="1.98" height="9.80" fill="#3b82f6" rx="0.7"><title>2026-04-29: 5</title></rect>
-<rect x="677.53" y="216.28" width="1.98" height="13.72" fill="#3b82f6" rx="0.7"><title>2026-04-30: 7</title></rect>
-<rect x="680.11" y="222.16" width="1.98" height="7.84" fill="#3b82f6" rx="0.7"><title>2026-05-01: 4</title></rect>
-<rect x="690.41" y="220.20" width="1.98" height="9.80" fill="#3b82f6" rx="0.7"><title>2026-05-05: 5</title></rect>
-<rect x="692.99" y="222.16" width="1.98" height="7.84" fill="#3b82f6" rx="0.7"><title>2026-05-06: 4</title></rect>
-<rect x="695.56" y="224.12" width="1.98" height="5.88" fill="#3b82f6" rx="0.7"><title>2026-05-07: 3</title></rect>
-<rect x="698.14" y="216.28" width="1.98" height="13.72" fill="#3b82f6" rx="0.7"><title>2026-05-08: 7</title></rect>
-<rect x="700.71" y="216.28" width="1.98" height="13.72" fill="#3b82f6" rx="0.7"><title>2026-05-09: 7</title></rect>
-<rect x="703.29" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2026-05-10: 1</title></rect>
-<rect x="705.86" y="216.28" width="1.98" height="13.72" fill="#3b82f6" rx="0.7"><title>2026-05-11: 7</title></rect>
-<rect x="708.44" y="212.36" width="1.98" height="17.64" fill="#3b82f6" rx="0.7"><title>2026-05-12: 9</title></rect>
-<rect x="711.01" y="210.40" width="1.98" height="19.60" fill="#3b82f6" rx="0.7"><title>2026-05-13: 10</title></rect>
-<rect x="713.59" y="173.16" width="1.98" height="56.84" fill="#3b82f6" rx="0.7"><title>2026-05-14: 29</title></rect>
-<rect x="716.16" y="167.28" width="1.98" height="62.72" fill="#3b82f6" rx="0.7"><title>2026-05-15: 32</title></rect>
-<rect x="718.74" y="216.28" width="1.98" height="13.72" fill="#3b82f6" rx="0.7"><title>2026-05-16: 7</title></rect>
-<rect x="721.32" y="200.60" width="1.98" height="29.40" fill="#3b82f6" rx="0.7"><title>2026-05-17: 15</title></rect>
-<rect x="723.89" y="216.28" width="1.98" height="13.72" fill="#3b82f6" rx="0.7"><title>2026-05-18: 7</title></rect>
-<rect x="726.47" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2026-05-19: 1</title></rect>
-<rect x="731.62" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2026-05-21: 1</title></rect>
-<rect x="734.19" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2026-05-22: 1</title></rect>
-<rect x="749.64" y="196.68" width="1.98" height="33.32" fill="#3b82f6" rx="0.7"><title>2026-05-28: 17</title></rect>
-<rect x="752.22" y="198.64" width="1.98" height="31.36" fill="#3b82f6" rx="0.7"><title>2026-05-29: 16</title></rect>
-<rect x="754.79" y="226.08" width="1.98" height="3.92" fill="#3b82f6" rx="0.7"><title>2026-05-30: 2</title></rect>
-<rect x="757.37" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2026-05-31: 1</title></rect>
-<rect x="759.95" y="186.88" width="1.98" height="43.12" fill="#3b82f6" rx="0.7"><title>2026-06-01: 22</title></rect>
-<rect x="762.52" y="204.52" width="1.98" height="25.48" fill="#3b82f6" rx="0.7"><title>2026-06-02: 13</title></rect>
-<rect x="765.10" y="186.88" width="1.98" height="43.12" fill="#3b82f6" rx="0.7"><title>2026-06-03: 22</title></rect>
-<rect x="767.67" y="186.88" width="1.98" height="43.12" fill="#3b82f6" rx="0.7"><title>2026-06-04: 22</title></rect>
-<rect x="770.25" y="196.68" width="1.98" height="33.32" fill="#3b82f6" rx="0.7"><title>2026-06-05: 17</title></rect>
-<rect x="772.82" y="214.32" width="1.98" height="15.68" fill="#3b82f6" rx="0.7"><title>2026-06-06: 8</title></rect>
-<rect x="775.40" y="226.08" width="1.98" height="3.92" fill="#3b82f6" rx="0.7"><title>2026-06-07: 2</title></rect>
-<rect x="777.97" y="206.48" width="1.98" height="23.52" fill="#3b82f6" rx="0.7"><title>2026-06-08: 12</title></rect>
-<rect x="780.55" y="177.08" width="1.98" height="52.92" fill="#3b82f6" rx="0.7"><title>2026-06-09: 27</title></rect>
-<rect x="783.12" y="165.32" width="1.98" height="64.68" fill="#3b82f6" rx="0.7"><title>2026-06-10: 33</title></rect>
-<rect x="785.70" y="216.28" width="1.98" height="13.72" fill="#3b82f6" rx="0.7"><title>2026-06-11: 7</title></rect>
-<rect x="788.27" y="226.08" width="1.98" height="3.92" fill="#3b82f6" rx="0.7"><title>2026-06-12: 2</title></rect>
-<rect x="796.00" y="206.48" width="1.98" height="23.52" fill="#3b82f6" rx="0.7"><title>2026-06-15: 12</title></rect>
-<rect x="798.58" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2026-06-16: 1</title></rect>
-<rect x="801.15" y="163.36" width="1.98" height="66.64" fill="#3b82f6" rx="0.7"><title>2026-06-17: 34</title></rect>
-<rect x="803.73" y="220.20" width="1.98" height="9.80" fill="#3b82f6" rx="0.7"><title>2026-06-18: 5</title></rect>
-<rect x="806.30" y="141.80" width="1.98" height="88.20" fill="#3b82f6" rx="0.7"><title>2026-06-19: 45</title></rect>
-<rect x="808.88" y="145.72" width="1.98" height="84.28" fill="#3b82f6" rx="0.7"><title>2026-06-20: 43</title></rect>
-<rect x="811.45" y="212.36" width="1.98" height="17.64" fill="#3b82f6" rx="0.7"><title>2026-06-21: 9</title></rect>
-<rect x="814.03" y="184.92" width="1.98" height="45.08" fill="#3b82f6" rx="0.7"><title>2026-06-22: 23</title></rect>
-<rect x="816.60" y="198.64" width="1.98" height="31.36" fill="#3b82f6" rx="0.7"><title>2026-06-23: 16</title></rect>
-<rect x="819.18" y="214.32" width="1.98" height="15.68" fill="#3b82f6" rx="0.7"><title>2026-06-24: 8</title></rect>
-<rect x="821.75" y="149.64" width="1.98" height="80.36" fill="#3b82f6" rx="0.7"><title>2026-06-25: 41</title></rect>
-<rect x="824.33" y="220.20" width="1.98" height="9.80" fill="#3b82f6" rx="0.7"><title>2026-06-26: 5</title></rect>
-<rect x="826.90" y="188.84" width="1.98" height="41.16" fill="#3b82f6" rx="0.7"><title>2026-06-27: 21</title></rect>
-<rect x="829.48" y="218.24" width="1.98" height="11.76" fill="#3b82f6" rx="0.7"><title>2026-06-28: 6</title></rect>
-<rect x="832.05" y="214.32" width="1.98" height="15.68" fill="#3b82f6" rx="0.7"><title>2026-06-29: 8</title></rect>
-<rect x="834.63" y="186.88" width="1.98" height="43.12" fill="#3b82f6" rx="0.7"><title>2026-06-30: 22</title></rect>
-<rect x="837.21" y="106.52" width="1.98" height="123.48" fill="#3b82f6" rx="0.7"><title>2026-07-01: 63</title></rect>
-<rect x="839.78" y="171.20" width="1.98" height="58.80" fill="#3b82f6" rx="0.7"><title>2026-07-02: 30</title></rect>
-<rect x="842.36" y="212.36" width="1.98" height="17.64" fill="#3b82f6" rx="0.7"><title>2026-07-03: 9</title></rect>
-<rect x="847.51" y="198.64" width="1.98" height="31.36" fill="#3b82f6" rx="0.7"><title>2026-07-05: 16</title></rect>
-<rect x="850.08" y="208.44" width="1.98" height="21.56" fill="#3b82f6" rx="0.7"><title>2026-07-06: 11</title></rect>
-<rect x="852.66" y="226.08" width="1.98" height="3.92" fill="#3b82f6" rx="0.7"><title>2026-07-07: 2</title></rect>
-<rect x="855.23" y="218.24" width="1.98" height="11.76" fill="#3b82f6" rx="0.7"><title>2026-07-08: 6</title></rect>
-<rect x="857.81" y="216.28" width="1.98" height="13.72" fill="#3b82f6" rx="0.7"><title>2026-07-09: 7</title></rect>
-<rect x="860.38" y="226.08" width="1.98" height="3.92" fill="#3b82f6" rx="0.7"><title>2026-07-10: 2</title></rect>
-<rect x="862.96" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2026-07-11: 1</title></rect>
-<rect x="870.68" y="196.68" width="1.98" height="33.32" fill="#3b82f6" rx="0.7"><title>2026-07-14: 17</title></rect>
-<rect x="873.26" y="222.16" width="1.98" height="7.84" fill="#3b82f6" rx="0.7"><title>2026-07-15: 4</title></rect>
-<rect x="886.14" y="224.12" width="1.98" height="5.88" fill="#3b82f6" rx="0.7"><title>2026-07-20: 3</title></rect>
-<rect x="888.71" y="220.20" width="1.98" height="9.80" fill="#3b82f6" rx="0.7"><title>2026-07-21: 5</title></rect>
-<rect x="891.29" y="204.52" width="1.98" height="25.48" fill="#3b82f6" rx="0.7"><title>2026-07-22: 13</title></rect>
-<rect x="893.86" y="218.24" width="1.98" height="11.76" fill="#3b82f6" rx="0.7"><title>2026-07-23: 6</title></rect>
-<rect x="896.44" y="212.36" width="1.98" height="17.64" fill="#3b82f6" rx="0.7"><title>2026-07-24: 9</title></rect>
-<rect x="899.01" y="222.16" width="1.98" height="7.84" fill="#3b82f6" rx="0.7"><title>2026-07-25: 4</title></rect>
-<rect x="901.59" y="222.16" width="1.98" height="7.84" fill="#3b82f6" rx="0.7"><title>2026-07-26: 4</title></rect>
-<rect x="904.16" y="222.16" width="1.98" height="7.84" fill="#3b82f6" rx="0.7"><title>2026-07-27: 4</title></rect>
-<rect x="906.74" y="222.16" width="1.98" height="7.84" fill="#3b82f6" rx="0.7"><title>2026-07-28: 4</title></rect>
-<rect x="909.32" y="149.64" width="1.98" height="80.36" fill="#3b82f6" rx="0.7"><title>2026-07-29: 41</title></rect>
-<rect x="911.89" y="157.48" width="1.98" height="72.52" fill="#3b82f6" rx="0.7"><title>2026-07-30: 37</title></rect>
-<rect x="914.47" y="182.96" width="1.98" height="47.04" fill="#3b82f6" rx="0.7"><title>2026-07-31: 24</title></rect>
-<rect x="917.04" y="226.08" width="1.98" height="3.92" fill="#3b82f6" rx="0.7"><title>2026-08-01: 2</title></rect>
-<rect x="919.62" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2026-08-02: 1</title></rect>
-<rect x="922.19" y="135.92" width="1.98" height="94.08" fill="#3b82f6" rx="0.7"><title>2026-08-03: 48</title></rect>
-<rect x="924.77" y="116.32" width="1.98" height="113.68" fill="#3b82f6" rx="0.7"><title>2026-08-04: 58</title></rect>
-<rect x="927.34" y="145.72" width="1.98" height="84.28" fill="#3b82f6" rx="0.7"><title>2026-08-05: 43</title></rect>
-<rect x="929.92" y="163.36" width="1.98" height="66.64" fill="#3b82f6" rx="0.7"><title>2026-08-06: 34</title></rect>
-<rect x="932.49" y="214.32" width="1.98" height="15.68" fill="#3b82f6" rx="0.7"><title>2026-08-07: 8</title></rect>
-<rect x="940.22" y="59.48" width="1.98" height="170.52" fill="#3b82f6" rx="0.7"><title>2026-08-10: 87</title></rect>
-<rect x="942.79" y="132.00" width="1.98" height="98.00" fill="#3b82f6" rx="0.7"><title>2026-08-11: 50</title></rect>
-<rect x="945.37" y="118.28" width="1.98" height="111.72" fill="#3b82f6" rx="0.7"><title>2026-08-12: 57</title></rect>
-<rect x="947.95" y="145.72" width="1.98" height="84.28" fill="#3b82f6" rx="0.7"><title>2026-08-13: 43</title></rect>
-<rect x="950.52" y="222.16" width="1.98" height="7.84" fill="#3b82f6" rx="0.7"><title>2026-08-14: 4</title></rect>
-<rect x="955.67" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2026-08-16: 1</title></rect>
-<rect x="963.40" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2026-08-19: 1</title></rect>
-<rect x="968.55" y="228.04" width="1.98" height="1.96" fill="#3b82f6" rx="0.7"><title>2026-08-21: 1</title></rect>
-<rect x="971.12" y="226.08" width="1.98" height="3.92" fill="#3b82f6" rx="0.7"><title>2026-08-22: 2</title></rect>
-<rect x="973.70" y="216.28" width="1.98" height="13.72" fill="#3b82f6" rx="0.7"><title>2026-08-23: 7</title></rect>
-<rect x="976.27" y="224.12" width="1.98" height="5.88" fill="#3b82f6" rx="0.7"><title>2026-08-24: 3</title></rect>
-<rect x="978.85" y="202.56" width="1.98" height="27.44" fill="#3b82f6" rx="0.7"><title>2026-08-25: 14</title></rect>
-<rect x="981.42" y="165.32" width="1.98" height="64.68" fill="#3b82f6" rx="0.7"><title>2026-08-26: 33</title></rect>
-<text x="44.0" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10">Aug</text>
-<text x="134.1" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10">Oct</text>
-<text x="214.0" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10">Nov</text>
-<text x="291.2" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10">Dec</text>
-<text x="371.1" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10">Jan</text>
-<text x="450.9" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10">Feb</text>
-<text x="523.0" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10">Mar</text>
-<text x="602.8" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10">Apr</text>
-<text x="680.1" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10">May</text>
-<text x="759.9" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10">Jun</text>
-<text x="837.2" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10">Jul</text>
-<text x="917.0" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10">Aug</text>
+<path d="M45.00,230.00 V222.24 Q45.00,218.24 49.00,218.24 H54.67 Q58.67,218.24 58.67,222.24 V230.00 Z" fill="#3b82f6"><title>2026-06-28: 6</title></path>
+<path d="M60.67,230.00 V218.32 Q60.67,214.32 64.67,214.32 H70.33 Q74.33,214.32 74.33,218.32 V230.00 Z" fill="#3b82f6"><title>2026-06-29: 8</title></path>
+<path d="M76.33,230.00 V190.88 Q76.33,186.88 80.33,186.88 H86.00 Q90.00,186.88 90.00,190.88 V230.00 Z" fill="#3b82f6"><title>2026-06-30: 22</title></path>
+<path d="M92.00,230.00 V110.52 Q92.00,106.52 96.00,106.52 H101.67 Q105.67,106.52 105.67,110.52 V230.00 Z" fill="#3b82f6"><title>2026-07-01: 63</title></path>
+<path d="M107.67,230.00 V175.20 Q107.67,171.20 111.67,171.20 H117.33 Q121.33,171.20 121.33,175.20 V230.00 Z" fill="#3b82f6"><title>2026-07-02: 30</title></path>
+<path d="M123.33,230.00 V216.36 Q123.33,212.36 127.33,212.36 H133.00 Q137.00,212.36 137.00,216.36 V230.00 Z" fill="#3b82f6"><title>2026-07-03: 9</title></path>
+<path d="M154.67,230.00 V202.64 Q154.67,198.64 158.67,198.64 H164.33 Q168.33,198.64 168.33,202.64 V230.00 Z" fill="#3b82f6"><title>2026-07-05: 16</title></path>
+<path d="M170.33,230.00 V212.44 Q170.33,208.44 174.33,208.44 H180.00 Q184.00,208.44 184.00,212.44 V230.00 Z" fill="#3b82f6"><title>2026-07-06: 11</title></path>
+<path d="M186.00,230.00 V230.00 Q186.00,226.08 189.92,226.08 H195.75 Q199.67,226.08 199.67,230.00 V230.00 Z" fill="#3b82f6"><title>2026-07-07: 2</title></path>
+<path d="M201.67,230.00 V222.24 Q201.67,218.24 205.67,218.24 H211.33 Q215.33,218.24 215.33,222.24 V230.00 Z" fill="#3b82f6"><title>2026-07-08: 6</title></path>
+<path d="M217.33,230.00 V220.28 Q217.33,216.28 221.33,216.28 H227.00 Q231.00,216.28 231.00,220.28 V230.00 Z" fill="#3b82f6"><title>2026-07-09: 7</title></path>
+<path d="M233.00,230.00 V230.00 Q233.00,226.08 236.92,226.08 H242.75 Q246.67,226.08 246.67,230.00 V230.00 Z" fill="#3b82f6"><title>2026-07-10: 2</title></path>
+<path d="M248.67,230.00 V230.00 Q248.67,228.00 250.67,228.00 H260.33 Q262.33,228.00 262.33,230.00 V230.00 Z" fill="#3b82f6"><title>2026-07-11: 1</title></path>
+<path d="M295.67,230.00 V200.68 Q295.67,196.68 299.67,196.68 H305.33 Q309.33,196.68 309.33,200.68 V230.00 Z" fill="#3b82f6"><title>2026-07-14: 17</title></path>
+<path d="M311.33,230.00 V226.16 Q311.33,222.16 315.33,222.16 H321.00 Q325.00,222.16 325.00,226.16 V230.00 Z" fill="#3b82f6"><title>2026-07-15: 4</title></path>
+<path d="M389.67,230.00 V228.12 Q389.67,224.12 393.67,224.12 H399.33 Q403.33,224.12 403.33,228.12 V230.00 Z" fill="#3b82f6"><title>2026-07-20: 3</title></path>
+<path d="M405.33,230.00 V224.20 Q405.33,220.20 409.33,220.20 H415.00 Q419.00,220.20 419.00,224.20 V230.00 Z" fill="#3b82f6"><title>2026-07-21: 5</title></path>
+<path d="M421.00,230.00 V208.52 Q421.00,204.52 425.00,204.52 H430.67 Q434.67,204.52 434.67,208.52 V230.00 Z" fill="#3b82f6"><title>2026-07-22: 13</title></path>
+<path d="M436.67,230.00 V222.24 Q436.67,218.24 440.67,218.24 H446.33 Q450.33,218.24 450.33,222.24 V230.00 Z" fill="#3b82f6"><title>2026-07-23: 6</title></path>
+<path d="M452.33,230.00 V216.36 Q452.33,212.36 456.33,212.36 H462.00 Q466.00,212.36 466.00,216.36 V230.00 Z" fill="#3b82f6"><title>2026-07-24: 9</title></path>
+<path d="M468.00,230.00 V226.16 Q468.00,222.16 472.00,222.16 H477.67 Q481.67,222.16 481.67,226.16 V230.00 Z" fill="#3b82f6"><title>2026-07-25: 4</title></path>
+<path d="M483.67,230.00 V226.16 Q483.67,222.16 487.67,222.16 H493.33 Q497.33,222.16 497.33,226.16 V230.00 Z" fill="#3b82f6"><title>2026-07-26: 4</title></path>
+<path d="M499.33,230.00 V226.16 Q499.33,222.16 503.33,222.16 H509.00 Q513.00,222.16 513.00,226.16 V230.00 Z" fill="#3b82f6"><title>2026-07-27: 4</title></path>
+<path d="M515.00,230.00 V226.16 Q515.00,222.16 519.00,222.16 H524.67 Q528.67,222.16 528.67,226.16 V230.00 Z" fill="#3b82f6"><title>2026-07-28: 4</title></path>
+<path d="M530.67,230.00 V153.64 Q530.67,149.64 534.67,149.64 H540.33 Q544.33,149.64 544.33,153.64 V230.00 Z" fill="#3b82f6"><title>2026-07-29: 41</title></path>
+<path d="M546.33,230.00 V161.48 Q546.33,157.48 550.33,157.48 H556.00 Q560.00,157.48 560.00,161.48 V230.00 Z" fill="#3b82f6"><title>2026-07-30: 37</title></path>
+<path d="M562.00,230.00 V186.96 Q562.00,182.96 566.00,182.96 H571.67 Q575.67,182.96 575.67,186.96 V230.00 Z" fill="#3b82f6"><title>2026-07-31: 24</title></path>
+<path d="M577.67,230.00 V230.00 Q577.67,226.08 581.59,226.08 H587.41 Q591.33,226.08 591.33,230.00 V230.00 Z" fill="#3b82f6"><title>2026-08-01: 2</title></path>
+<path d="M593.33,230.00 V230.00 Q593.33,228.00 595.33,228.00 H605.00 Q607.00,228.00 607.00,230.00 V230.00 Z" fill="#3b82f6"><title>2026-08-02: 1</title></path>
+<path d="M609.00,230.00 V139.92 Q609.00,135.92 613.00,135.92 H618.67 Q622.67,135.92 622.67,139.92 V230.00 Z" fill="#3b82f6"><title>2026-08-03: 48</title></path>
+<path d="M624.67,230.00 V120.32 Q624.67,116.32 628.67,116.32 H634.33 Q638.33,116.32 638.33,120.32 V230.00 Z" fill="#3b82f6"><title>2026-08-04: 58</title></path>
+<path d="M640.33,230.00 V149.72 Q640.33,145.72 644.33,145.72 H650.00 Q654.00,145.72 654.00,149.72 V230.00 Z" fill="#3b82f6"><title>2026-08-05: 43</title></path>
+<path d="M656.00,230.00 V167.36 Q656.00,163.36 660.00,163.36 H665.67 Q669.67,163.36 669.67,167.36 V230.00 Z" fill="#3b82f6"><title>2026-08-06: 34</title></path>
+<path d="M671.67,230.00 V218.32 Q671.67,214.32 675.67,214.32 H681.33 Q685.33,214.32 685.33,218.32 V230.00 Z" fill="#3b82f6"><title>2026-08-07: 8</title></path>
+<path d="M718.67,230.00 V63.48 Q718.67,59.48 722.67,59.48 H728.33 Q732.33,59.48 732.33,63.48 V230.00 Z" fill="#3b82f6"><title>2026-08-10: 87</title></path>
+<path d="M734.33,230.00 V136.00 Q734.33,132.00 738.33,132.00 H744.00 Q748.00,132.00 748.00,136.00 V230.00 Z" fill="#3b82f6"><title>2026-08-11: 50</title></path>
+<path d="M750.00,230.00 V122.28 Q750.00,118.28 754.00,118.28 H759.67 Q763.67,118.28 763.67,122.28 V230.00 Z" fill="#3b82f6"><title>2026-08-12: 57</title></path>
+<path d="M765.67,230.00 V149.72 Q765.67,145.72 769.67,145.72 H775.33 Q779.33,145.72 779.33,149.72 V230.00 Z" fill="#3b82f6"><title>2026-08-13: 43</title></path>
+<path d="M781.33,230.00 V226.16 Q781.33,222.16 785.33,222.16 H791.00 Q795.00,222.16 795.00,226.16 V230.00 Z" fill="#3b82f6"><title>2026-08-14: 4</title></path>
+<path d="M812.67,230.00 V230.00 Q812.67,228.00 814.67,228.00 H824.33 Q826.33,228.00 826.33,230.00 V230.00 Z" fill="#3b82f6"><title>2026-08-16: 1</title></path>
+<path d="M859.67,230.00 V230.00 Q859.67,228.00 861.67,228.00 H871.33 Q873.33,228.00 873.33,230.00 V230.00 Z" fill="#3b82f6"><title>2026-08-19: 1</title></path>
+<path d="M891.00,230.00 V230.00 Q891.00,228.00 893.00,228.00 H902.67 Q904.67,228.00 904.67,230.00 V230.00 Z" fill="#3b82f6"><title>2026-08-21: 1</title></path>
+<path d="M906.67,230.00 V230.00 Q906.67,226.08 910.59,226.08 H916.41 Q920.33,226.08 920.33,230.00 V230.00 Z" fill="#3b82f6"><title>2026-08-22: 2</title></path>
+<path d="M922.33,230.00 V220.28 Q922.33,216.28 926.33,216.28 H932.00 Q936.00,216.28 936.00,220.28 V230.00 Z" fill="#3b82f6"><title>2026-08-23: 7</title></path>
+<path d="M938.00,230.00 V228.12 Q938.00,224.12 942.00,224.12 H947.67 Q951.67,224.12 951.67,228.12 V230.00 Z" fill="#3b82f6"><title>2026-08-24: 3</title></path>
+<path d="M953.67,230.00 V206.56 Q953.67,202.56 957.67,202.56 H963.33 Q967.33,202.56 967.33,206.56 V230.00 Z" fill="#3b82f6"><title>2026-08-25: 14</title></path>
+<path d="M969.33,230.00 V163.44 Q969.33,159.44 973.33,159.44 H979.00 Q983.00,159.44 983.00,163.44 V230.00 Z" fill="#3b82f6"><title>2026-08-26: 36</title></path>
+<text x="98.8" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10" text-anchor="middle">Jul 1</text>
+<text x="208.5" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10" text-anchor="middle">Jul 8</text>
+<text x="318.2" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10" text-anchor="middle">Jul 15</text>
+<text x="427.8" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10" text-anchor="middle">Jul 22</text>
+<text x="537.5" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10" text-anchor="middle">Jul 29</text>
+<text x="647.2" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10" text-anchor="middle">Aug 5</text>
+<text x="756.8" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10" text-anchor="middle">Aug 12</text>
+<text x="866.5" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10" text-anchor="middle">Aug 19</text>
+<text x="976.2" y="248" fill="#64748b" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10" text-anchor="end">Aug 26</text>
 </svg>
