@@ -25,12 +25,12 @@ query($login:String!, $from:DateTime!, $to:DateTime!) {
 }
 """
 
-W, H = 1000, 260
-ML, MR, MT, MB = 44, 16, 34, 30
+W, H = 1000, 276
+ML, MR, MT, MB = 44, 16, 34, 46
 DEFAULT_DAYS = 60
 GAP = 2.0      # surface gap between adjacent bars
 RADIUS = 4.0   # rounded data-end, baseline stays square
-SURFACE, BAR, GRID = "#0d1117", "#3b82f6", "#1e293b"
+SURFACE, BAR, GRID = "#0d1117", "#2ea043", "#1e293b"
 INK, MUTED = "#94a3b8", "#64748b"
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -124,16 +124,25 @@ def render(days, total):
             f'{x + bw:.2f},{y + r:.2f} V{base:.2f} Z" fill="{BAR}">'
             f'<title>{esc(d["date"])}: {c}</title></path>')
 
-    # Dated ticks: roughly weekly, and always the most recent day.
-    step = max(1, round(n / 9))
-    marks = list(range(n - 1, -1, -step))[::-1]
-    for i in marks:
+    # A tick and a day number for every day; month names on a second row.
+    font = "system-ui,-apple-system,Segoe UI,sans-serif"
+    for i, d in enumerate(days):
         x = ML + i * slot + slot / 2
-        anchor = "end" if i == n - 1 else "middle"
-        out.append(f'<text x="{x:.1f}" y="{base + 18:.0f}" fill="{MUTED}" '
-                   f'font-family="system-ui,-apple-system,Segoe UI,sans-serif" '
-                   f'font-size="10" text-anchor="{anchor}">'
-                   f'{label_for(days[i]["date"])}</text>')
+        out.append(f'<line x1="{x:.1f}" y1="{base:.0f}" x2="{x:.1f}" '
+                   f'y2="{base + 4:.0f}" stroke="{GRID}" stroke-width="1"/>')
+        out.append(f'<text x="{x:.1f}" y="{base + 15:.0f}" fill="{MUTED}" '
+                   f'font-family="{font}" font-size="9" text-anchor="middle">'
+                   f'{int(d["date"][8:10])}</text>')
+
+    # Month name once per month, centred under that month's visible days.
+    spans = {}
+    for i, d in enumerate(days):
+        spans.setdefault(d["date"][:7], []).append(i)
+    for mo, idxs in spans.items():
+        x = ML + (idxs[0] + idxs[-1] + 1) / 2 * slot
+        out.append(f'<text x="{x:.1f}" y="{base + 31:.0f}" fill="{INK}" '
+                   f'font-family="{font}" font-size="11" text-anchor="middle">'
+                   f'{MONTHS[int(mo[5:7]) - 1]}</text>')
 
     out.append("</svg>")
     return "\n".join(out)
